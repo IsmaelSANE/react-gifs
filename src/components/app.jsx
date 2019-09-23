@@ -9,7 +9,7 @@ class App extends React.Component {
         <div className="left-scene">
           <SearchBar />
           <div className="selected-gif">
-            <Gif />
+            <Gif id="l41YaEfCkjCyHl1Oo" />
           </div>
         </div>
         <div className="right-scene"></div>
