@@ -1,11 +1,13 @@
-import React, { component } from 'react';
-
+import React from 'react';
+import SearchBar from './search_bar.jsx';
 
 class App extends React.Component {
   render() {
     return (
       <div className="article">
-        <div className="left-scene"></div>
+        <div className="left-scene">
+          <SearchBar />
+        </div>
         <div className="right-scene"></div>
       </div>
     );
